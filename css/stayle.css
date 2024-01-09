@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url(../fonts/Satoshi-Regular.woff);
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    font-family: "Satoshi";
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    border: 2px solid red;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__top-title {
+    color: #22202e;
+    font-family: Clash Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header__top-img1 {
+    display: flex;
+    gap: 10px;
+}
